@@ -5,8 +5,8 @@
 
 TOKEN="your-hetzner-api-token"
 ZONE="yourdomain.de"
-LOG="$HOME/ddns/ddns-update.log"
-IP_FILE="$HOME/ddns/last_ip.txt"
+LOG="$HOME/hetzner-ddns-ipv6/ddns-update.log"
+IP_FILE="$HOME/hetzner-ddns-ipv6/last_ip.txt"
 
 log() {
     echo "$(date '+%Y-%m-%d %H:%M:%S') - $1" | tee -a "$LOG"
